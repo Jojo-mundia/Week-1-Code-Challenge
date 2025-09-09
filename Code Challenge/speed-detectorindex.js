@@ -21,5 +21,7 @@ function speedDetector(speed) {
   if (points > 12) {
     //If the demerit points are more than 12 the driver's license is suspended
     return licenseSuspended;
+  } else {
+    return `Points: ${points}`; // Show how many points the driver got
   }
 }
